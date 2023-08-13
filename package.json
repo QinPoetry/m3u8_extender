@@ -1,0 +1,24 @@
+{
+  "name": "m3u8_extender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getm3u8": "node ./testcase/getm3u8.js",
+    "test": "node index.js ./testcase/input/csdn.txt OBSSampleDirectory ./testcase/output/csdn.txt ./testcase/output/csdnerror.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QinPoetry/m3u8_extender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QinPoetry/m3u8_extender/issues"
+  },
+  "homepage": "https://github.com/QinPoetry/m3u8_extender#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "m3u8-parser": "^7.1.0"
+  }
+}
